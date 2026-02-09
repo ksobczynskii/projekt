@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kosteks/P3/Projekt/student/Windowing/Windowing.csproj": {}
+  },
+  "projects": {
+    "/Users/kosteks/P3/Projekt/student/RayTracing/RayTracing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kosteks/P3/Projekt/student/RayTracing/RayTracing.csproj",
+        "projectName": "RayTracing",
+        "projectPath": "/Users/kosteks/P3/Projekt/student/RayTracing/RayTracing.csproj",
+        "packagesPath": "/Users/kosteks/.nuget/packages/",
+        "outputPath": "/Users/kosteks/P3/Projekt/student/RayTracing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kosteks/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kosteks/P3/Projekt/student/Windowing/Windowing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kosteks/P3/Projekt/student/Windowing/Windowing.csproj",
+        "projectName": "Windowing",
+        "projectPath": "/Users/kosteks/P3/Projekt/student/Windowing/Windowing.csproj",
+        "packagesPath": "/Users/kosteks/.nuget/packages/",
+        "outputPath": "/Users/kosteks/P3/Projekt/student/Windowing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kosteks/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/kosteks/P3/Projekt/student/RayTracing/RayTracing.csproj": {
+                "projectPath": "/Users/kosteks/P3/Projekt/student/RayTracing/RayTracing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
